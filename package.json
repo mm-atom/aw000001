@@ -1,6 +1,6 @@
 {
 	"name": "@mmstudio/aw000001",
-	"version": "1.0.0",
+	"version": "1.0.202003071424",
 	"description": "通用接口",
 	"scripts": {
 		"test": "npm run build && karma start --single-run",
