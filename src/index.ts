@@ -7,7 +7,7 @@ export default interface IAiBrowserComponent {
 		readonly [attr: string]: unknown;
 		readonly no: string;
 		readonly node: HTMLElement;
-		readonly params: { [key: string]: unknown };
+		readonly params: { [key: string]: string; };
 		readonly url: string;
 	};
 	parse_event(node: HTMLElement | DocumentFragment): IHandle[];
